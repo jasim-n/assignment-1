@@ -1,0 +1,136 @@
+.container{
+    padding: 5px;
+}
+.nav-bar{
+    background:rgb(39, 93, 155);
+    padding: 20px;
+}
+
+.topnav a{
+    color: chartreuse;
+}
+.topnav a:hover{
+    background: green;
+    padding:20px;
+}
+a i{
+    font-size:  40px;
+}
+.wrap{
+    display:inline-flex;
+}
+li a{
+    display: inline;
+}
+a{
+
+    text-decoration: none;
+    margin: 50px;
+}
+.change{
+    position: relative;
+    top: 200px;
+    background: grey;
+    padding:0 10px 10px 0;
+    text-align: center;
+}
+
+.grid:hover .row .col {
+    filter: blur(3px);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    transform: scale(.8);
+  }
+  
+  .grid .row .col {
+    
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .grid .row .col:hover {
+    filter: blur(0);
+    transform: scale(1.2);
+    
+  }
+ /*  .change{
+      position: relative;
+  }
+ .change,.change>a{
+      
+      width: 100%;
+      position: absolute;
+      bottom: -159px;
+	
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .65);
+    right: 20px;
+    
+  } */
+footer{
+
+    border: rgb(146, 233, 7) solid 3px;
+    background: rgb(21, 195, 73);
+    box-shadow: 10px 10px 5px grey;
+}
+.crud{
+    background-image: url("pic1.jpg");
+    background-size: cover;
+    height: 40em;
+   
+  
+
+    background-position: center;
+
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    background:lightblue;
+}
+.pic5{
+    background-image: url("pic6.jpg");
+    background-size: cover;
+}
+.pic6{
+    background-image: url("pic3.jpg");
+    background-size: cover;
+}
+.pic1{
+    background-image: url("pic5.jpg");
+    background-size: cover;
+}
+.pic2{
+    background-image: url("pic2.jpg");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("pic7.jpg");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("pic1.jpg");
+    background-size: cover;
+}
+.pic7{
+    background-image: url("pic4.jpg");
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    
+}
+.social-icons{
+    display: inline-flex;
+}
+.row{
+
+    display:block;
+}
+.col{
+    width:23%;
+    display: inline-block;
+    height:15em;
+    padding: 5px;
+    margin: 8px;
+}
